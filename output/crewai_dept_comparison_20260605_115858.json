@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-05T11:58:58.597827+00:00",
+  "framework": "crewai",
+  "model": "gpt-4.1-mini",
+  "workflows": 5,
+  "coordination_hops": 59,
+  "baseline": {
+    "coordination_llm_calls": 59,
+    "coordination_cost_usd": 0.000787,
+    "coordination_tokens": 1976,
+    "agent_cost_usd": 0.001758,
+    "total_cost_usd": 0.002545,
+    "deterministic": false,
+    "validated": false
+  },
+  "with_aacp": {
+    "coordination_llm_calls": 0,
+    "coordination_cost_usd": 0.0,
+    "agent_cost_usd": 0.001779,
+    "total_cost_usd": 0.001779,
+    "deterministic": true,
+    "validated": true
+  }
+}
